@@ -43,7 +43,7 @@ After cmake was run the solution file is in the build directory. Start Visual St
 
 # Usage #
 ```
-liq script-file -h -d -v -q -ipath1;path2...;pathn
+crit -f script-file -h -o output-file -d -v -q -ipath1;path2...;pathn -lpath1;path2...;pathn
 ```
 where
 - h help: shows the usage.
