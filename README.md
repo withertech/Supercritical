@@ -56,9 +56,9 @@ supercritical does parse the file, generates the code in memory and runs it.
 
 **Examples**
 ```
-./liq test.liq
-./liq test.liq -q
-./liq test.liq -v -d -i import/path;import/other/path
+crit -f test.crit -o test.ll
+crit -f test.crit -o -
+crit -f test.crit -o test.ll -v -i import/path;import/other/path -l library/path;library/other/path
 ```
 
 # Language Syntax #
@@ -126,7 +126,7 @@ __Note__ _This feature is currently under construction and not stable._
 ### One Line ##
 One line comment starts with `#`. All characters after that symbol are ignored until the end of line symbol.
 ### Multiple Lines ###
-A comment starts with `@{` and ends with `@}`. All text in between is ignored.
+A comment starts with `/*` and ends with `*/`. All text in between is ignored.
 
 ## Variable ##
 ### Name ###
@@ -299,5 +299,6 @@ int i = get(p)
 Importing other script files can be done via the `import` keyword.
 ```
 import some-other-file
+lib some-lib
 ```
 
