@@ -1,0 +1,16 @@
+lib core/io
+lib core/math
+
+writef("Enter an double:\n")
+double x = readdouble()
+writef("sin(x): %f\n", sin(x))
+writef("cos(x): %f\n", cos(x))
+writef("tan(x): %f\n", tan(x))
+writef("cot(x): %f\n", cot(x))
+writef("sec(x): %f\n", sec(x))
+writef("csc(x): %f\n", csc(x))
+var l = [1,2,3]
+var n = 1
+while n < 3
+	n = n + 1
+writef("%d,%d,%d", l[0], l[1], l[2])

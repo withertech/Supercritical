@@ -1,0 +1,12 @@
+def test_var()
+    var id = 5
+    int x = 24 + id
+    printf("id = %d x = %d\n", id, x)
+    var otto = "Hello"
+    printf("otto = %s (Hello)\n", otto)
+    otto = "It's me."
+    printf("otto = %s (It's me.)\n", otto)
+#    otto = 5 # This should result in an error message. (No change to the value of otto).
+#    printf("otto = %s (It's me.)\n", otto)
+
+

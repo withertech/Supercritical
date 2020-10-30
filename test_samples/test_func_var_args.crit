@@ -1,0 +1,9 @@
+def inc(var x)
+	return x+1
+	
+var y = inc(1)
+printf("%d\n", y)
+double pi_inc = inc(3.14)
+printf("%f\n", pi_inc)
+int one_inc_by_two = inc(2)
+printf("%d\n", one_inc_by_two)

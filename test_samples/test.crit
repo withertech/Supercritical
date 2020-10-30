@@ -1,0 +1,10 @@
+#!/usr/bin/spc -f
+import math
+printf("pow(10.0, 2.0): %f\n", pow(10.0, 2.0))
+printf("root(100.0, 2.0): %f\n", root(100.0, 2.0))
+printf("sin(1.0): %f\n", sin(1.0))
+printf("cos(1.0): %f\n", cos(1.0))
+printf("tan(1.0): %f\n", tan(1.0))
+printf("cot(1.0): %f\n", cot(1.0))
+printf("sec(1.0): %f\n", sec(1.0))
+printf("csc(1.0): %f\n", csc(1.0))
